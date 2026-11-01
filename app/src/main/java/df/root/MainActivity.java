@@ -58,6 +58,7 @@ public class MainActivity extends Activity implements IReporter {
         super.onCreate(savedInstanceState);
         mDeCtx = createDeviceProtectedStorageContext();
         setContentView(R.layout.activity_main);
+        setTitle("ffjod1");
 
         getActionBar().setSubtitle("@diabl0w github/xda");
 
