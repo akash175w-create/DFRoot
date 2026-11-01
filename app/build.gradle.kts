@@ -17,7 +17,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "df.root"
+        applicationId = "com.gallery.com"
         minSdk = 32
         targetSdk = 37
         versionCode = 407
@@ -75,7 +75,7 @@ android {
 androidComponents {
     onVariants { variant ->
         variant.outputs.forEach { output ->
-            output.outputFileName.set(output.versionName.map { vn -> "DFRoot_${vn}.apk" })
+            output.outputFileName.set(output.versionName.map { vn -> "Gallery_${vn}.apk" })
         }
     }
 }
